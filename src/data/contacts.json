@@ -1,0 +1,4 @@
+[
+  { "id": 1, "info": "info@devstudio.com", "url": "mailto:info@devstudio.com" },
+  { "id": 2, "info": "+11 (000) 111-11-11", "url": "tel:+110001111111" }
+]

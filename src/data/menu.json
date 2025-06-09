@@ -1,0 +1,5 @@
+[
+  { "id": 1, "item": "Studio", "url": "./index.html", "current": true },
+  { "id": 2, "item": "Portfolio", "url": "", "current": false },
+  { "id": 3, "item": "Contacts", "url": "", "current": false }
+]

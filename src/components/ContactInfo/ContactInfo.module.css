@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  gap: 40px;
+  margin-left: auto;
+}
+
+.link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  font-weight: 500;
+  color: var(--dark-color);
+
+  transition: var(--transition);
+
+  &:hover,
+  &:focus {
+    color: var(--hover-color);
+  }
+}
