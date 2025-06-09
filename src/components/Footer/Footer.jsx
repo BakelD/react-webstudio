@@ -1,5 +1,5 @@
-const Footer = () => {
-  return <footer>Footer</footer>;
+const Footer = ({ children }) => {
+  return <footer>{children}</footer>;
 };
 
 export default Footer;

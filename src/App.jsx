@@ -1,3 +1,4 @@
+import Container from './components/Container/Container';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Section from './components/Section/Section';
@@ -5,16 +6,29 @@ import Section from './components/Section/Section';
 const App = () => {
   return (
     <>
-      <Header />
+      <Header>
+        <Container>Header</Container>
+      </Header>
 
       <main>
-        <Section />
-        <Section />
-        <Section />
-        <Section />
+        <Section>
+          <Container>Some section</Container>
+        </Section>
+        <Section>
+          <Container>Some section</Container>
+        </Section>
+        <Section>
+          <Container>Some section</Container>
+        </Section>
+        <Section>
+          <Container>Some section</Container>
+        </Section>
       </main>
 
-      <Footer />
+      <Footer>
+        {' '}
+        <Container>Footer</Container>
+      </Footer>
     </>
   );
 };

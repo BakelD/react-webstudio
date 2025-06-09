@@ -1,5 +1,5 @@
-const Section = () => {
-  return <section>Some section</section>;
+const Section = ({ children }) => {
+  return <section>{children}</section>;
 };
 
 export default Section;
