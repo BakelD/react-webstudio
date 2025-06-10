@@ -1,0 +1,8 @@
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.bColor {
+  background-color: var(--pale-bg-color);
+}
