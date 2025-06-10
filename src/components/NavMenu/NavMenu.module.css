@@ -16,8 +16,7 @@
   font-weight: 500;
   color: var(--dark-color);
 
-  transition: var(--transition);
-  transition: 1000ms color linear;
+  transition: var(--transition-color);
 
   &:hover,
   &:focus {

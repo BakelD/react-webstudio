@@ -10,5 +10,6 @@
   --bright-color: #31d0aa;
   --modal-bg-color: #fcfcfc;
 
-  --transition: 300ms color cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-color: 300ms color cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bg: 300ms background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
