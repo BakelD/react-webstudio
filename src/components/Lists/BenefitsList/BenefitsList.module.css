@@ -3,6 +3,10 @@
   gap: 24px;
 }
 
+.item {
+  width: 264px;
+}
+
 .title {
   margin-bottom: 8px;
   font-weight: 500;

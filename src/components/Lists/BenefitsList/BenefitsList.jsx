@@ -4,7 +4,7 @@ const BenefitsList = ({ benefits }) => {
   return (
     <ul className={css.list}>
       {benefits.map(({ id, title, info }) => (
-        <li key={id}>
+        <li key={id} className={css.item}>
           <h3 className={css.title}>{title}</h3>
           <p className={css.text}>{info}</p>
         </li>
