@@ -6,9 +6,11 @@ import Hero from './components/Hero/Hero';
 import Section from './components/Section/Section';
 import Title from './components/Title/Title';
 import TeamList from './components/Lists/TeamList/TeamList';
+import PortfolioList from './components/Lists/PortfolioList/PortfolioList';
 
 import benefits from './data/benefits.json';
 import teamMembers from './data/team.json';
+import portfolioItems from './data/portfolio.json';
 
 const App = () => {
   return (
@@ -33,12 +35,14 @@ const App = () => {
         </Section>
 
         <Section>
-          <Container>Some section</Container>
+          <Container>
+            <Title text="Our Portfolio" />
+            <PortfolioList portfolioItems={portfolioItems} />
+          </Container>
         </Section>
       </main>
 
       <Footer>
-        {' '}
         <Container>Footer</Container>
       </Footer>
     </>

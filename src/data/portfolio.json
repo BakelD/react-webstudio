@@ -1,0 +1,8 @@
+[
+  { "id": 1, "img": "images/portfolio/img1.jpg", "title": "Banking App", "category": "App" },
+  { "id": 2, "img": "images/portfolio/img2.jpg", "title": "Cashless Payment", "category": "Marketing" },
+  { "id": 3, "img": "images/portfolio/img3.jpg", "title": "Meditation App", "category": "App" },
+  { "id": 4, "img": "images/portfolio/img4.jpg", "title": "Taxi Service", "category": "Marketing" },
+  { "id": 5, "img": "images/portfolio/img5.jpg", "title": "Screen Illustrations", "category": "Design" },
+  { "id": 6, "img": "images/portfolio/img6.jpg", "title": "Online Courses", "category": "Marketing" }
+]
