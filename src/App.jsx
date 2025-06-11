@@ -5,8 +5,10 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Section from './components/Section/Section';
 import Title from './components/Title/Title';
+import TeamList from './components/Lists/TeamList/TeamList';
 
 import benefits from './data/benefits.json';
+import teamMembers from './data/team.json';
 
 const App = () => {
   return (
@@ -26,8 +28,10 @@ const App = () => {
         <Section bColor>
           <Container>
             <Title text="Our Team" />
+            <TeamList teamMembers={teamMembers} />
           </Container>
         </Section>
+
         <Section>
           <Container>Some section</Container>
         </Section>
