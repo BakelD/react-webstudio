@@ -42,9 +42,7 @@ const App = () => {
         </Section>
       </main>
 
-      <Footer>
-        <Container>Footer</Container>
-      </Footer>
+      <Footer />
     </>
   );
 };

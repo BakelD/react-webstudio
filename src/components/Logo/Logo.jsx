@@ -1,8 +1,9 @@
+import clsx from 'clsx';
 import css from './Logo.module.css';
 
-const Logo = () => {
+const Logo = ({ footer }) => {
   return (
-    <a className={css.logo} href="./index.html">
+    <a className={clsx(css.logo, footer && css.logoFooter)} href="./index.html">
       <span className={css.accent}>Web</span>Studio
     </a>
   );

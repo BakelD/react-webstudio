@@ -8,6 +8,10 @@
   color: var(--dark-color);
 }
 
+.logoFooter {
+  color: var(--pale-bg-color);
+}
+
 .accent {
   color: var(--accent-color);
 }
